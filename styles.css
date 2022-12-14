@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/pexels-leeloo-thefirst-5238670.jpg);
+    background-repeat: no-repeat;
+    background-color: cover;
+}
+.hero{
+    font-size: 70px;
+    max-width: 20px;
+    font-weight: bold;
+}
+h2{
+    font-size: 20px;
+}
+img{
+    width: 30%;
+    margin: auto;
+}
+    
