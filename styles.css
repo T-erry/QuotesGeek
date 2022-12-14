@@ -6,10 +6,15 @@
 body{
     width: 100%;
     height: 100vh;
-    background-image: url(/images/pexels-leeloo-thefirst-5238670.jpg);
+    background-image: url(/images/pexels-rodnae-productions-6936081.jpg);
     background-repeat: no-repeat;
     background-color: cover;
     font-family: 'Poppins', sans-serif;
+}
+#logo{
+    width: 10%;
+    margin-left: 0;
+    margin-top: 1rem;
 }
 .hero{
     font-size: 80px;
@@ -25,6 +30,9 @@ img{
    margin-top: 70%;
 }
 .form-group{
+    color: #fff;
+}
+h3{
     color: #fff;
 }
 @media screen and (max-width: 1080px) {
