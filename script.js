@@ -23,13 +23,15 @@ function renderQuotes(quotes) {
     quoteList.addEventListener("click", (e) => {
       console.log(e.target);
       let deleteButtonPressed = e.target.id === "delete-quote";
-    let id = e.target.parentElement.dataset.id;
-        // DELETE method
+      let EditButtonPressed = e.target.id === "edit-quote";
+      let id = e.target.parentElement.dataset.id;
+      // DELETE method
       if (deleteButtonPressed) {
-        fetch(`${url}/${id}`,{
-            method: 'DELETE',
-        })
+        fetch(`${url}/${id}`, {
+          method: "DELETE",
+        });
       }
+      // PATCH METHOD
     });
   });
 }
@@ -43,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
 //POST-insert new post
 addQuoteForm.addEventListener("submit", (e) => {
   e.preventDefault();
-  // console.log(titleValue);
+  //   console.log(titleValue);
   fetch(url, {
     method: "POST",
     headers: {
@@ -51,8 +53,8 @@ addQuoteForm.addEventListener("submit", (e) => {
       Accept: "application/json",
     },
     body: JSON.stringify({
-      quote: titleValue.value,
       author: authorValue.value,
+      text: titleValue.value,
     }),
   })
     .then((response) => response.json())
@@ -60,6 +62,5 @@ addQuoteForm.addEventListener("submit", (e) => {
       const quotesArray = [];
       quotesArray.push(quotes);
       renderQuotes(quotes);
-      form.reset();
     });
 });
