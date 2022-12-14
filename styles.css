@@ -23,6 +23,7 @@ body{
 }
 h2{
     font-size: 20px;
+    color:  #1c1b1c;
 }
 img{
     width: 20%;
@@ -30,10 +31,10 @@ img{
    margin-top: 70%;
 }
 .form-group{
-    color: #fff;
+    color: #1c1b1c;
 }
 h3{
-    color: #fff;
+    color: #1c1b1c;
 }
 @media screen and (max-width: 1080px) {
     .hero {
