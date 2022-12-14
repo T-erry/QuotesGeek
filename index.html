@@ -15,11 +15,17 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"></script>
       <script src="https://kit.fontawesome.com/ba1462fff1.js" crossorigin="anonymous"></script>
+      <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="styles.css" />
     <title>Quotes Generator</title>
   </head>
   <body>
+    <!-- header -->
 <div class="container">
+    <div class="row">
+        <img src=""/>
+    </div>
     <section class="row"> 
         <div class="col-md-6">
             <h1 class="hero">
@@ -32,7 +38,7 @@
             <img src="images/man.jpeg" alt="author" class="img-fluid"/>
         </div>
 </div>
-
+<!-- main contents -->
     <section class="container">
          <!-- form details -->
        <div class=" hero-1 row">
@@ -40,15 +46,9 @@
           <form id="add-quote-form">
             <div class="form-group mt-5">
               <label for="quote">Enter quote</label>
-              <input
-                id="quote-value"
-                type="text"
-                name="quote"
-                class="form-control"
-              />
+              <input id="quote-value"type="text" name="quote" class="form-control"/>  
             </div> 
-           <!--  quotes section  -->
-             <div class="form-group mt-5">
+             <div class="form-group mt-5 ">
               <label for="content">author</label>
               <input id="author-value" type="text" class="form-control" />
             </div>
@@ -58,16 +58,15 @@
           </form>
         </div>
         </div>
+        <!-- quotes section -->
           <div class="quote-list row">
             <h2 class="mt-5">Quotes Section</h2>
             <div class="col-md-6">
-              <div class="card mt-4 col-md-6">
+              <div class="card m-5 col-md-6">
                 <div class="card-body">
                   <h5 class="card-title">Quotes</h5>
                   <p class="card-text">Author</p>
-                  <a href="#" class="btn btn-primary" id="delete-quote"
-                    >Delete</a
-                  >
+                  <a href="#" class="btn btn-primary" id="delete-quote">Delete</a  >
                 </div>
               </div>
             </div>
