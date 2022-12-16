@@ -27,7 +27,7 @@
     />
 
     <link rel="stylesheet" href="styles.css" />
-    <title>Quotes Generator</title>
+    <title>QuotesGeek Generator</title>
   </head>
   <body>
     <!-- header -->
@@ -52,36 +52,45 @@
         </div>
       </div>
     </div>
+    <!--  api section -->
+    <div class="container">
+
+    </div>
     <!-- main contents -->
     <!-- form details -->
     <div class="container">
       <div class="row">
         <div class="col-6-md">
-          <h3>Post a quote</h3>
-          <form id="add-quote-form">
-            <div class="form-group mt-5">
-              <label for="quote">Enter quote</label>
-              <input
-                id="quote-value"
-                type="text"
-                name="quote"
-                class="form-control"
-              />
+          <div class="card mt-5" >
+            <di class="header">
+              <h3 class="m-2 text-center">Post a quote</h3>
+            </di>
+            <div class="card-body">
+              <form id="add-quote-form">
+                <div class="form-group mt-5">
+                  <label for="quote">Enter quote</label>
+                  <input
+                    id="quote-value"
+                    type="text"
+                    name="quote"
+                    class="form-control"
+                  />
+                </div>
+                <div class="form-group mt-5">
+                  <label for="content">author</label>
+                  <input id="author-value" type="text" class="form-control" />
+                </div>
+                <button type="submit" class="btn btn-primary mt-3">
+                  Add quote
+                </button>
+              </form>
             </div>
-            <div class="form-group mt-5">
-              <label for="content">author</label>
-              <input id="author-value" type="text" class="form-control" />
-            </div>
-            <button type="submit" class="btn btn-primary mt-3">
-              Add quote
-            </button>
-          </form>
+          </div>
         </div>
-      </div>
-      <!-- quotes section -->
-      <div class=" quote-list row">
-       
-            </div>
+        <!-- quotes section -->
+        <div class="quote-list row">
+          
+        </div>
       </div>
     </div>
     <script src="/script.js"></script>
