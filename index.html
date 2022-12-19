@@ -52,35 +52,40 @@
         </div>
       </div>
     </div>
-    <!--  api section -->
+    <!--  external api section -->
     <div class="container">
-      <div class="row">
+      <div class="row d-flex justify-content-end">
         <div class="card m-4 col-md-6">
           <div class="card-body">
-            <p class="card-text">"You may encounter many defeats, but you must not be defeated. In fact, it may be necessary to encounter the defeats, so you can know who you are, what you can rise from, how you can still come out of it."
+            <div class="header">
+              <h1>Quote of the day</h1>
+            </div>
+            <p class="card-text">
+              <span><i class="fa-solid fa-quote-left"> </i>
+              You may encounter many defeats, but you must not be defeated. In
+              fact, it may be necessary to encounter the defeats, so you can
+              know who you are, what you can rise from, how you can still come
+              out of it.
+              <span><i class="fa-solid fa-quote-left"> </i>
             </p>
             <div class="author d-flex justify-content-end">
               <span>_</span>
-            <span id="author">Maya Angelou</span>
+              <span id="author">Maya Angelou</span>
             </div>
             <div id="button">
-              <a href="#" class="btn btn-primary" id="generate-quote">Generate</a>
+              <a href="#" class="btn btn-primary" id="generate-quote">Generate Quotes</a>
             </div>
-
           </div>
         </div>
-        </div>
       </div>
-     
     </div>
-  
     <!-- form details -->
     <div class="container">
       <div class="row">
         <div class="col-6-md">
-          <div class="card mt-5" >
+          <div class="card mt-5">
             <di class="header">
-              <h3 class="m-2 text-center">Post a quote</h3>
+              <h1 class="m-2 text-center">Post a quote</h1>
             </di>
             <div class="card-body">
               <form id="add-quote-form">
@@ -105,9 +110,7 @@
           </div>
         </div>
         <!-- quotes details section -->
-        <div class="quote-list row">
-          
-        </div>
+        <div class="quote-list row"></div>
       </div>
     </div>
     <script src="/script.js"></script>
