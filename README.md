@@ -1,10 +1,13 @@
-# QuotesGeek
+# PHASE 1 PROJECT
+## Project Name
+- QuotesGeek
 ## Author
 By: Terry Wachuka
 
 ## Project Description
-   The QuotesGeeek application allows the user to generate quotes from an external api.  Also, as a user one can create a new quote and author.
-   As a user you can also delete the posted quote and author.
+  - The QuotesGeeek application allows the user to generate quotes from an external api.  
+  - Also, as a user one can create a new quote and author.
+   - As a user you can also delete the posted quote and author.
 
  ## Setup and Installation Requirements
     To run this program:
@@ -16,7 +19,15 @@ By: Terry Wachuka
 - $ Make changes where need be.
 
 ## Bugs and Known Issues
-none at the moment
-should they occur, contact me using the email below. 
+The application works well, no bugs
 Email: terrywachuka10@gmail.com
 
+## Technologies used
+1. HTML
+2. CSSS
+3. BOOTSTRAP
+4. JavaScript
+5. JSON
+
+## Support and Contact Details
+Email: terrywachuka10@gmail.com
