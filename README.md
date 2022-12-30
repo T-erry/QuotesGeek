@@ -19,7 +19,10 @@ By: Terry Wachuka
 - $ Make changes where need be.
 
 ## Bugs and Known Issues
-The application works well, no bugs
+The application works well, no bugs.
+If you encounter one email me.
+
+## Support and Contact Details
 Email: terrywachuka10@gmail.com
 
 ## Technologies used
@@ -29,5 +32,3 @@ Email: terrywachuka10@gmail.com
 4. JavaScript
 5. JSON
 
-## Support and Contact Details
-Email: terrywachuka10@gmail.com
