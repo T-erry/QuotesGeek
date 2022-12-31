@@ -32,3 +32,5 @@ Email: terrywachuka10@gmail.com
 4. JavaScript
 5. JSON
 
+## License
+This project is under the [MIT] license
